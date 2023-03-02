@@ -47,14 +47,14 @@
                 <label for="filter">Sort By View:</label>
                 <select name="sortBy" id="sort">
                   <option value="" disabled selected hidden style="opacity: 0.5; border: none;">Default</option>
-                  <option value="saab">Saab</option>
-                  <option value="opel">Opel</option>
-                  <option value="audi">Audi</option>
+                  <option value="all">All</option>
+                  <option value="breaking-news">Breaking News</option>
+                  <option value="sports">Sports</option>
                 </select>
             </div>
             <div>
-                <button class="btn btn-primary me-3">Today’s Pick</button>
-                <button class="btn btn-outline-primary">Trending</button>
+                <button class="btn btn-primary me-3" onclick="showTodaysPick()">Today’s Pick</button>
+                <button class="btn btn-outline-primary" onclick="showTrending()">Trending</button>
             </div>
         </section>
         <section  id="single-news-display">
